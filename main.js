@@ -4,7 +4,12 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyB2odDrxOO9S1M78uOqetXTAYjFjMOOuTI",
+  authDomain: "replsupport-98338.firebaseapp.com",
+  projectId: "replsupport-98338",
+  storageBucket: "replsupport-98338.appspot.com",
+  messagingSenderId: "678466884392",
+  appId: "1:678466884392:web:ed39dcf771377d2501761d"
 };
 
 if (!firebase.apps.length) {
